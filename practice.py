@@ -1,4 +1,4 @@
-
+"""""
 #1.number
 
 from ast import operator
@@ -123,6 +123,36 @@ while answer!=guess:
 #..........................................
 print("....................................")
 
-import time
 
-print(time.clock_gettime())
+"""""
+
+
+#inheritance
+
+
+class person:
+    def __init__(self, name, age):
+        self.name =name
+        self.age =age
+    
+    def printName(self):
+        print(self.name)
+
+    def printAge(self):
+        print(self.age)
+
+
+class student(person):
+    def __init__(self, name, age,school):
+        self.name =name
+        self.age =age
+        self.school= school
+
+    def printSchool(self):
+        print(self.school)
+
+
+
+student1 = student("Tom","12","KPU")
+
+student1 .printName()
