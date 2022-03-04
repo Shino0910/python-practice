@@ -132,3 +132,5 @@ def power(x,y):
 
 
 print(power(2,5))
+
+#檔案寫入
