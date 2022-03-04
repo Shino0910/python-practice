@@ -123,13 +123,6 @@ while answer!=guess:
 #..........................................
 print("....................................")
 
-# function of for 
-def power(x,y):
-    result = x
-    for index in range(y-1):
-        result= result * x
-    return result
+import time
 
-
-print(power(2,5))
-
+print(time.clock_gettime())
